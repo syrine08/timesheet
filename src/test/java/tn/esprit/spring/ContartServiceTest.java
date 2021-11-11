@@ -22,7 +22,8 @@ public class ContartServiceTest {
 
 	@Autowired
 	IEmployeService employeService;
-
+ 
+	
 	
 	Employe employe = new Employe("flen", "ben flen", "flen@gmail.com", true, Role.ADMINISTRATEUR);
 	Contrat contrat= new Contrat(7, new Date(), "rr", 300, employe);
